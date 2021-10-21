@@ -1,0 +1,15 @@
+.Button {
+  padding: 8px 16px;
+  font-size: 48px;
+  margin: 4px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--acid-violet);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--acid-violet);
+    color: var(--black);
+    filter: brightness(90%);
+  }
+}
