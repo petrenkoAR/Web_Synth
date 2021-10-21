@@ -1,7 +1,7 @@
 .SynthRoom {
   display: flex;
   min-height: 100vh;
-  margin: 24px;
+  margin: 78px;
   justify-content: center;
 
   & > div {
@@ -9,7 +9,8 @@
     flex-direction: column;
     max-width: 600px;
     border: 3px solid #CF9FE2;
-    border-right: none;
+    border-radius:8px;
+    margin: 12px;
 
     &:last-child {
       border-right: 3px solid white;
@@ -25,11 +26,11 @@
     }
 
     h2 {
-      padding: 0 20px;
+      padding: 0 24px;
       line-height: 60px;
       text-align: center;
       text-transform: uppercase;
-      border-bottom: 1px solid var(--acid-violet);
+      border-top: 1px solid var(--acid-violet);
     }
 
     .Slider,
@@ -37,7 +38,7 @@
     .ButtonSet {
       // margin: 40px 0;
       padding: 20px;
-      border-bottom: 1px solid var(--acid-violet);
+      //border-bottom: 1px solid var(--acid-violet);
     }
   }
 }
